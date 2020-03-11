@@ -24,6 +24,11 @@
 .cat1, .cat2, .cat3 {
     padding: 10px 30px;
     border-radius: 10px;
+    transition: all 0.7s;
+}
+
+.cat1:hover, .cat2:hover, .cat3:hover {
+    transform: scale(1.05);
 }
 .cat1 {
     background-color: orange;
@@ -50,6 +55,10 @@
     border: none;
     box-shadow: 5px 5px 10px lightgray;
     border-radius: 10px;
+    transition: all .7s;
+}
+.card:hover {
+    transform: scale(1.05);
 }
 
 .card-footer {
